@@ -1,10 +1,20 @@
 # Contributing
 
-Work is tracked as `seed:ready` issues filed with the Seed issue form.
+Thanks for helping improve these projects. Use the relevant project's issue
+tracker to report a reproducible bug or discuss a proposed change. Check its
+README and project-specific contribution instructions first.
 
-1. Pick an open `seed:ready` issue. Assign yourself or add the label `claimed` before starting.
-2. Touch only the single owner file/folder named in the issue; respect the fixed interface and out-of-scope list.
-3. Make the issue's failing acceptance test pass.
-4. Open a pull request whose description says `Closes #n`.
-5. PR-only: never push directly to `main` or release branches.
-6. Never put secrets, hosts, IPs or private details in issues or PRs; this account's `.github` repo is public.
+## Issues
+
+- Describe the problem, expected behavior, and steps to reproduce it.
+- Include relevant versions and a small, sanitized example where possible.
+- Keep credentials, private data, and internal operational details out of public
+  issues, logs, screenshots, and pull requests.
+
+## Pull requests
+
+- Propose focused changes through a pull request against the project's default
+  branch. Do not push directly to protected or shared branches.
+- Explain the change and link a relevant issue when one exists.
+- Run the project's documented tests and include the results and any limitations.
+- Preserve unrelated work and respond to review feedback before merging.

@@ -1,0 +1,43 @@
+name: Bug report
+description: Report a reproducible problem in this project.
+title: "[Bug]: "
+body:
+  - type: markdown
+    attributes:
+      value: Please omit credentials, private data, and internal operational details.
+  - type: textarea
+    id: summary
+    attributes:
+      label: Problem summary
+      description: Describe the problem and the affected feature.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to reproduce
+      description: Provide a minimal example and numbered steps.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Version and environment
+      description: Include the project version and relevant operating system or runtime.
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Sanitized logs or screenshots
+      description: Remove credentials and private information before posting.
